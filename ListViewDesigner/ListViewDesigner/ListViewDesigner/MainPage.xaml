@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="ListViewDesigner.MainPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:design="clr-namespace:ListViewDesigner;assembly=ListViewDesigner"
+             xmlns:local="clr-namespace:ListViewDesigner"
+             xmlns:helpers="clr-namespace:MvvmHelpers;assembly=MvvmHelpers"
+    BindingContext="{x:Static design:ViewModelLocator.NewsViewModel}">
+
+    <Label Text="ddd"/>
+
+    <!--<ListView ItemsSource="{Binding NewsItems}" >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+            <ImageCell Text="{Binding Title}"
+                       Detail="{Binding ArticleAbstract}"
+                       ImageSource="{Binding ImageSource}">
+                
+            </ImageCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>-->
+
+</ContentPage>
